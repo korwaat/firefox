@@ -1,0 +1,69 @@
+body {
+    margin: 0px;
+    padding: 0px;
+     width: 100%;
+    height: 100%
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    
+}
+
+#taable div {
+    background: orange;
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+    margin: 2px;
+    font-size: 49px;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    font-family: "Droid Sans Mono";
+    
+}
+
+#taable {
+    margin-left:auto; 
+     margin-right:auto; 
+     vertical-align: middle;
+}
+
+#main {
+    background: gray;
+    width: 100%;
+    height: 100%;
+    overflow-y: visible;
+    overflow-x: visible;
+}
+
+#main #pairs,#remain_pairs {
+    text-align: center;
+    font-size: 32px;
+    color:whitesmoke;
+    font-family: "Droid Sans Mono";
+}
+
+#pointer {
+    font-family: "Droid Sans Mono";
+    text-align: center;
+    font-size: 32px;
+    color:whitesmoke;
+}
+#main #pointer span {
+        color:orange;
+}
+
+#main #pairs span {
+        color:orange;
+}
+
+#main #remain_pairs span {
+        color:orange;
+}
+ 
+p {
+     margin: 15px    0      0       0;
+}
